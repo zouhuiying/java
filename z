@@ -1,0 +1,26 @@
+mport java.util.*;
+class Test{
+        public String getString(){
+                return "you are pig";
+        }
+        public int getInt(){
+                return 123;
+        }
+        public int String(){
+                List mylist=new ArrayList();
+                mylist.add(11);
+                mylist.add(22);
+                return (int)mylist.get(0);
+        }
+        public String aaString(){
+                Map mymap=new HashMap();
+                        mymap.put("a","as");
+                        mymap.put("b","bd");
+                        return (String)mymap.get("a");
+        }
+
+        public int getInt(int a,int b){
+                return 123+a+b;
+        }
+}
+~                                    
